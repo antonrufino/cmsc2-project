@@ -1,0 +1,127 @@
+/* Import Raleway.ttf. Will only work if client can read .ttf files. */
+@font-face {
+	font-family: "Raleway Light";
+	src: url(../media/font/Raleway/Raleway-Light.ttf);
+}
+
+@font-face {
+	font-family: Raleway;
+	src: url(../media/font/Raleway/Raleway-Regular.ttf);
+}
+
+body {
+	margin: 0px;
+}
+
+* {
+	font-family: Raleway, Helvetica, Arial, sans-serif;
+}
+
+header {
+    min-height: 80px;
+    z-index: 100;
+    transition: max-height 0.8s;
+    padding-left: 10px;
+	width: 100%;
+	position: fixed;
+	font-family: "Raleway Light", "Helvetica Light", "Arial Light", sans-serif;
+	background: #fff;
+	color: #000;
+	max-height: 80px;
+	height: auto;
+	overflow: hidden;
+	box-shadow: 0px 2.5px 5px #999;	
+}
+
+header:hover {
+    transition: max-height 0.8s;
+    height: auto;
+    max-height: 500px;
+}
+
+header h1, nav, a {
+    font-size: inherit;
+	font-family: inherit;
+}
+
+header h1, nav, ul {
+	float: left;
+}
+
+header h1 {
+    text-shadow: 1px;
+	text-align: center; 
+	padding: 5px 10px;
+	font-size: 3.5em;
+	font-weight: 500;
+	margin: 0px;
+}
+
+nav {
+    font-size: 1.2em;
+    color: #000;
+	margin-top: 1.6em;
+	font-family: Raleway, Helvetica, Arial, sans-serif;
+	padding: 5px 15px 10px;
+	text-align: center;
+}
+
+nav ul {
+    transition: width 0.3s;
+    width: 120px;
+    padding-left: 10px;
+    margin-top: 0px;
+    text-align: left;
+    list-style-type: none;
+    font-size: 0.9em;
+}
+
+nav ul li:first-child {
+    margin-bottom: 20px;
+    font-size: 1.35em;
+}
+
+a:link, a:active, a:visited {
+    transition: color 0.5s;
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	transition: color 0.5s;
+	color: #009999;
+}
+
+#slideshow {
+    padding-top: 80px;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+#content {
+    position: relative;
+    margin: 20px auto;
+    width: 85%;
+    max-width: 1100px;
+}
+
+footer {
+	height: 30px;
+	font-size: 10px;
+	width: 100%;
+	font-family: RalewayL, "Helvetica Light", "Arial Light", sans-serif;
+	background: #000;
+	color: #fff;
+}
+
+#footer-text {
+	font-size: 1em;
+	color: #fff;
+	font-family: sans-serif;
+	background: #000;
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	margin-top: 8px;
+}

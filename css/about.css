@@ -1,0 +1,27 @@
+
+#dictionary-text {
+    position: absolute;
+    top: -200px;
+}
+
+#dictionary-text p {
+    padding: 15px 45px 15px 25px;
+    background: #fff;
+    font-size: 1.5em;
+}
+
+#dictionary-text span {
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+span {
+   font-style: italic;
+   font-weight: bold;
+}
+
+#content h1 {
+    font-size: 3.5em;
+    margin: 20px auto
+}

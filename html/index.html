@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Wall</title>
+		
+		<!-- Global styles --> 
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		
+		<!-- Style specific to homepage only. -->
+		<style type="text/css"> 
+		    
+		    #slideshow {
+	            height: 400px;
+	            overflow: hidden;
+            }
+
+            .sub-content-item {
+                width: 29.5%;
+                float: left;
+                padding: 0px 20px;
+            }
+            
+            .sub-content-item:hover {
+                color: #000;
+            }
+            
+            .sub-content-item h2 {
+                transition: background 0.5s, color 0.5s;
+                z-index: 1;
+                width: inherit;
+                margin: 0px;
+                padding: 13px;
+                height: 149px;
+                position: absolute;
+                color: #fff;
+            }
+            
+            .sub-content-item:hover h2 {
+                transition: background 0.5s;
+                background: #000;
+                opacity: 0.7
+            }
+            
+            .sub-content-image {
+                position: relative;
+                width: 100%;
+                height: 175px;
+                overflow: hidden;
+            }
+            
+            #clearfix {
+                clear: both;
+            }
+		</style> 
+	</head>
+	<body>
+	    <div id="container">
+	      <header>
+	         <a href="index.html"><h1>wa||</h1></a>
+	         <nav> 
+	            <ul class="nav-column">
+	                <li><a href="products.html">products</a></li>
+	                <li><a href="men.html">men</a></li>
+	                <li><a href="women.html">women</a></li> 
+	                <li><a href="summer_collection.html">summer</a></li>
+	                <li><a href="rain.html">rain</a></li>
+	                <li><a href="prints.html">prints</a></li>
+	                <li><a href="plain.html">plain</a></li>
+	                <li><a href="hipster.html">hipster</a></li>
+	                <li><a href="university_pride.html">university pride</a></li>
+	                <li><a href="accessories.html">accessories</a></li>
+                </ul>
+                <ul class="nav-column">
+	                <li><a href="about_us.html">about us</a></li>
+	                <li><a href="about_us.html">who we are</a></li>
+	                <li><a href="about_team.html">meet the team</a></li>
+                </ul>
+	            <ul class="nav-column">
+	                <li><a href="contact.html">contact us</a></li>
+                </ul>
+                <ul class="nav-column">
+                    <li><a href="sources.html">sources</a></li>
+                </ul>
+	         </nav>
+         </header>
+         <div id="slideshow">
+            <img src="../media/img/banner.jpg" width="100%">
+         </div>
+         <div id="content">
+            <!-- Dummytext here only. Courtesy of Gangsta Lorem Ipsum. --> 
+            <a href="summer_collection.html" class="sub-content-item">
+                <div class="sub-content-image">
+                    <h2>Summer Collection</h2>
+                    <img src="../media/img/sc2.jpg" width="100%">
+                </div>
+                <p>Beat the heat and have fun with Wall's 2015 Summer Collection.</p>
+            </a>
+            
+            <a href="rain.html" class="sub-content-item">
+                <div class="sub-content-image">
+                    <h2>Rain Collection</h2>
+                    <img src="../media/img/rainn8.jpg" width="100%">
+                </div>
+                <p>Don't wanna get wet this rainy season? Did the calendar shift rain on your summer vacation? Then enjoy this rainy season in style with the 2015 Rain Collection.</p>
+            </a>  
+            
+            <a href="hipster.html" class="sub-content-item">
+                <div class="sub-content-image">
+                    <h2>Hipster Collection</h2>
+                    <img src="../media/img/hipp5.jpg" width="100%">
+                </div>
+                <p>Go against what's mainstream with the 2015 Hipster Collection.</p>
+            </a> 
+            <div id="clearfix"></div> 
+         </div>
+         <footer>
+            <nav id="footer-text">
+                <a>2015 MDR Studios - All Rights Reserved</a>
+            </nav>
+    	</footer>
+      </div>
+	</body>
+</html>

@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Allura;
+    src: url(../media/font/Allura.otf);
+}
+
+#content {
+    overflow: hidden;
+    padding: 100px 40px;
+    margin: 0px auto;
+    width: 1100px;
+}
+
+.menWomen {
+    margin: 0px auto;
+    width: 1100px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.main-picture {
+    width: 250px;
+    float: left;
+}
+
+.main-picture a {
+    transition: background 0.5s, color 0.5s;
+    z-index: 1;
+    width: inherit;
+    margin: 0px;
+    height: inherit;
+    position: absolute;
+    font-weight: lighter;
+}
+            
+.main-picture a:hover {
+    transition: background 0.3s, color 0.3s;
+    color: #000;
+    background: rgba(255, 255, 255, .2);
+}
+            
+.content-image {
+    position: relative;
+    width: 100%;
+    height: inherit;
+    overflow: visible;
+}
+
+.content-image img {
+    width: 100%;
+    height: inherit;
+}
+
+#header-center1 {
+    font-family: Raleway;
+    font-size: 12px;
+    letter-spacing: 2px;
+    width: 230px;
+    position: absolute;
+    bottom: -13%;
+    text-align: center;
+}
+
+.header-product {
+    color: #000;
+}
+
+a h2 {
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+/*MAIN PICTURES*/
+
+#main-picture1, #main-picture2 {
+    width: 237px;
+    height: 325px;
+    margin: 0px 50px 100px 0px;  
+}
+
+#main-picture2 {
+    margin: 0px 0px 30px 0px; 
+}
+
+#main-logo {
+    position: relative;
+    left: 33%;
+    margin: 0px 0px 30px 0px;
+    width: 400px;
+}
+
+#main-logo h1 {
+    font-family: Allura;
+    font-size: 50px;
+    font-weight: 700;
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Wall</title>
+		
+		<!-- Global styles --> 
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		
+		<!-- Style specific to homepage only. -->
+		<style type="text/css">
+		    #slideshow {
+	            height: 500px;
+	            overflow: hidden;
+            }
+            
+		    footer {
+                margin: 20px auto;
+                width: 85%;
+                overflow: auto;
+            }
+
+            .footer-item {
+                width: 28%;
+                float: left;
+                padding: 0px 20px;
+            }
+            
+            .footer-item h2 {
+                margin-top: 8px;
+                margin-left: 8px;
+                position: absolute;
+                padding: 5px;
+                color: #fff;
+            }
+            
+            .footer-image {
+                height: 173px;
+                overflow: auto;
+            }
+            
+            .has-right-border {
+                border-right: 1px solid #dfdfdf;
+            }
+		</style> 
+	</head>
+	<body>
+	   <div id="container">
+	      <header>
+	         <h1><a href="#">wa||</a></h1>
+	         <nav> 
+	            <a href="#">products</a> |
+	            <a href="#">contact us</a> |
+	            <a href="#">about</a>
+	         </nav>
+         </header>
+         <div id="content">
+            <div id="slideshow">
+               <img src="../img/shy_girl.jpg" width="100%">
+            </div>
+            <footer>
+                <!-- Dummytext here only. Courtesy of Gangsta Lorem Ipsum. --> 
+                <div class="footer-item has-right-border">
+                    <h2><a href="#">Lorem ipsum 1</a></h2>
+                    <div class="footer-image">
+                        <img src="../img/1.jpg" width="100%">
+                    </div>
+                    <p>Crazy ipsizzle dolizzle sit amet, crunk adipiscing sheezy. Nullam dizzle velizzle, hizzle volutpizzle, black shit, gravida vizzle, bizzle. Pellentesque eget tortizzle. Sizzle erizzle. That's the shizzle things dolizzle shut the shizzle up go to hizzle tempus dang. Maurizzle pellentesque nibh izzle pot. Crazy izzle tortizzle. We gonna chung yo rhoncizzle its fo rizzle. In hac nizzle platea dictumst. Go to hizzle dapibizzle. Curabitizzle break yo neck, yall urna, pretium sizzle, things izzle, eleifend vitae, nunc. Fo shizzle my nizzle suscipit. Integizzle the bizzle stuff sizzle purizzle.</p>
+                </div>
+                
+                <div class="footer-item has-right-border">
+                    <h2><a href="#">Lorem ipsum 2</a></h2>
+                    <div class="footer-image">
+                        <img src="../img/2.png" width="100%">
+                    </div>
+                    <p>Crazy ipsizzle dolizzle sit amet, crunk adipiscing sheezy. Nullam dizzle velizzle, hizzle volutpizzle, black shit, gravida vizzle, bizzle. Pellentesque eget tortizzle. Sizzle erizzle. That's the shizzle things dolizzle shut the shizzle up go to hizzle tempus dang. Maurizzle pellentesque nibh izzle pot. Crazy izzle tortizzle. We gonna chung yo rhoncizzle its fo rizzle. In hac nizzle platea dictumst. Go to hizzle dapibizzle. Curabitizzle break yo neck, yall urna, pretium sizzle, things izzle, eleifend vitae, nunc. Fo shizzle my nizzle suscipit. Integizzle the bizzle stuff sizzle purizzle.</p>
+                </div>  
+                
+                <div class="footer-item">
+                    <h2><a href="#">Lorem ipsum 3</a></h2>
+                    <div class="footer-image">
+                        <img src="../img/3.jpg" width="100%">
+                    </div>
+                    <p>Crazy ipsizzle dolizzle sit amet, crunk adipiscing sheezy. Nullam dizzle velizzle, hizzle volutpizzle, black shit, gravida vizzle, bizzle. Pellentesque eget tortizzle. Sizzle erizzle. That's the shizzle things dolizzle shut the shizzle up go to hizzle tempus dang. Maurizzle pellentesque nibh izzle pot. Crazy izzle tortizzle. We gonna chung yo rhoncizzle its fo rizzle. In hac nizzle platea dictumst. Go to hizzle dapibizzle. Curabitizzle break yo neck, yall urna, pretium sizzle, things izzle, eleifend vitae, nunc. Fo shizzle my nizzle suscipit. Integizzle the bizzle stuff sizzle purizzle.</p>
+                </div>     
+            </footer>
+         </div>
+      </div>
+	</body>
+</html>
